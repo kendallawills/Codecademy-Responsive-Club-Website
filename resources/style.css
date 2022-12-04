@@ -1,0 +1,371 @@
+/* UNIVERSAL */
+
+* {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+/* NAV */
+
+nav {
+    width: 100%;
+    height: 6.25em;
+    background-image: url("images/blue-paint.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid #191970;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 100;
+}
+
+nav a {
+    font-size: 1.125rem;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s color ease;
+}
+
+nav a:hover {
+    color: #0000ff;
+}
+
+button a {
+    color: #000000;
+}
+
+button {
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 0.9375em 1.25em;
+    cursor: pointer;
+    transition: 0.5s background-color ease;
+}
+
+button:hover {
+    background-color: #778899;
+}
+
+/* BANNER */
+
+.banner {
+    width: 100%;
+    height: 37.5em;
+    background-image: url("images/paintbrush.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding-top: 6.25em;
+}
+
+.club-name {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25;
+}
+
+.club-name h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #191970;
+    word-spacing: 1rem;
+}
+
+/* ABOUT */
+
+#about {
+    width: 100%;
+    background-image: url("images/about.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-content {
+    width: 85%;
+    height: 31.25em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 0.625em;
+    margin: 0 auto;
+}
+
+.about-header {
+    width: 50%;
+    font-size: 2.25rem;
+    color: #000000;
+}
+
+.about-header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.about-header span {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-decoration: underline 4px #0000ff;
+}
+
+.about-info {
+    width: 50%;
+    max-height: 25em;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+}
+
+.about-info p {
+    font-size: 1.25rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/* VISIT */
+
+#visit {
+    background-color: #f5f5f5;
+    color: #000000;
+    padding-top: 1.25em;
+    padding-bottom: 1.875em;
+}
+
+#visit h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#visit span {
+    font-family: 'Times New Roman', Times, serif;
+    color: #0000ff;
+    font-weight: 700;
+}
+
+.visit-header {
+    text-align: center;
+}
+
+.visit-header p {
+    font-size: 1.5rem;
+}
+
+.visit-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.visit {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1.25em auto;
+}
+
+.visit-photo {
+    width: 30%;
+    height: auto;
+    border-radius: 20%;
+    overflow: hidden;
+}
+
+.visit-photo img {
+    width: 100%;
+}
+
+.visit-info {
+    width: 30%;
+    text-align: center;
+}
+
+.visit-info h3 {
+    font-size: 1.5rem;
+    color: #0000ff;
+    font-weight: 700;
+}
+
+.visit-info p {
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+/* OUR TEAM */
+
+#team {
+    background-color: #ffffff;
+    color: #000000;
+    padding-top: 10px;
+}
+
+#team h3 {
+    color: #0000ff;
+    font-weight: 700;
+}
+
+.team-header {
+    text-align: center;
+}
+
+.team-header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.125rem;
+    font-weight: 700;
+}
+
+.team {
+    display: flex;
+}
+
+.member {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team img {
+    width: 100%;
+}
+
+.photo {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.lauren,
+.amber,
+.domenic,
+.alyssa,
+.ian,
+.donald {
+    text-align: center;
+}
+
+/* CONTACT */
+
+#contact {
+    width: 100%;
+    height: 6.25em;
+    color: #ffffff;
+    background-image: url("images/blue-paint.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact {
+    text-align: center;
+    padding-bottom: 0.625em;
+    margin-bottom: 0.625em;
+}
+
+.contact h3 {
+    font-size: 1.25rem;
+}
+
+.contact p {
+    margin: 0;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 600px) {
+
+    nav a {
+        letter-spacing: 1px;
+    }
+
+    button {
+        padding: 5px 10px;
+    }
+
+    .club-name h1 {
+        text-align: center;
+    }
+
+    .about-content {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .about-header {
+        width: 100%;
+    }
+
+    .about-header h1 {
+        text-align: center;
+        padding: 0 auto;
+        margin: 0 auto;
+    }
+
+    .about-info {
+        width: 100%;
+        height: auto;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .about-info p {
+        width: 100%;
+        text-align: center;
+        line-height: 1;
+    }
+
+    .visit {
+        width: 100%;
+    }
+
+    .visit-photo {
+        width: 40%;
+    }
+
+    .visit-info {
+        width: 40%;
+    }
+
+    .contact h3 {
+        font-size: 1rem;
+    }
+
+    .contact p {
+        font-size: 0.75rem;
+    }
+}
